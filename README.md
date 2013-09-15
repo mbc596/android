@@ -1,7 +1,7 @@
 DOWNLOAD THE SOURCE
 ===================
 
-repo repo init -u https://github.com/mbc596/android.git -b 4.3
+repo init -u https://github.com/mbc596/android.git -b 4.3
 
 bionic and dalvik the PSX. Why? Because is forked of CM and include some extras.
 
