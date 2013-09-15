@@ -390,8 +390,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
-   <!-- PSX -->
-  <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="jb-4.3" />
-  <project path="dalvik" name="PSX-PureSpeed/android_dalvik" remote="github" revision="jb-4.3"/>
+  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="dalvik" name="platform/dalvik" />
 
 </manifest>
