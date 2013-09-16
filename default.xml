@@ -15,7 +15,6 @@
   <!-- mbc596 -->
   <project path="frameworks/base" name="mbc596/android_frameworks_base" remote="github" revision="4.3" />
   <project path="packages/apps/Settings" name="mbc596/android_packages_apps_Settings" remote="github" revision="4.3" />
-  <project path="vendor/mako" name="mbc596/Vendor_mako" remote="github" revision="master" />
   
   <!-- AOSP -->
   <project path="build" name="platform/build" groups="pdk" >
@@ -390,7 +389,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
-  <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="dalvik" name="platform/dalvik" />
+   <!-- PSX -->
+  <project path="bionic" name="PSX-PureSpeed/android_bionic" remote="github" revision="jb-4.3" />
+  <project path="dalvik" name="PSX-PureSpeed/android_dalvik" remote="github" revision="jb-4.3"/>
 
 </manifest>
