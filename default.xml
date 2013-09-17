@@ -15,6 +15,7 @@
   <!-- mbc596 -->
   <project path="frameworks/base" name="mbc596/android_frameworks_base" remote="github" revision="4.3" />
   <project path="packages/apps/Settings" name="mbc596/android_packages_apps_Settings" remote="github" revision="4.3" />
+  <project path="device/lge/mako" name="mbc596/android_device_lge_mako" groups="device,mako" remote="github" revision="4.3" />
   
   <!-- AOSP -->
   <project path="build" name="platform/build" groups="pdk" >
